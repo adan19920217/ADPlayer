@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5C4EC147056870E90D1085 /* libPods-ADPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB581FB10DCFDE18F40C8D7 /* libPods-ADPlayer.a */; };
+		E60D46121FAF1C2C00AD24D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46111FAF1C2C00AD24D9 /* main.m */; };
+		E60D46151FAF1C2C00AD24D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46141FAF1C2C00AD24D9 /* AppDelegate.m */; };
+		E60D461B1FAF1C2C00AD24D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60D46191FAF1C2C00AD24D9 /* Main.storyboard */; };
+		E60D461D1FAF1C2C00AD24D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60D461C1FAF1C2C00AD24D9 /* Assets.xcassets */; };
+		E60D46201FAF1C2C00AD24D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60D461E1FAF1C2C00AD24D9 /* LaunchScreen.storyboard */; };
+		E60D462D1FAF1CB900AD24D9 /* ADPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D462C1FAF1CB900AD24D9 /* ADPlayer.m */; };
+		E60D46341FAF1EAD00AD24D9 /* ADConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46331FAF1EAD00AD24D9 /* ADConst.m */; };
+		E60D463B1FAF225A00AD24D9 /* ADTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46361FAF225A00AD24D9 /* ADTopicCell.m */; };
+		E60D46401FAF22F700AD24D9 /* ADTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E60D463F1FAF22F700AD24D9 /* ADTopicCell.xib */; };
+		E60D46431FAF252C00AD24D9 /* ADTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46421FAF252C00AD24D9 /* ADTableViewVC.m */; };
+		E60D46AB1FAF30EA00AD24D9 /* UIImage+ADImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D46AA1FAF30EA00AD24D9 /* UIImage+ADImage.m */; };
+		E6FD95C71FB018EF00D63B24 /* videoData.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FD95C41FB018EF00D63B24 /* videoData.json */; };
+		E6FD95CB1FB0195300D63B24 /* ADVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD95CA1FB0195300D63B24 /* ADVideoModel.m */; };
+		E6FD95D21FB01A2700D63B24 /* ADCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD95CE1FB01A2700D63B24 /* ADCollectionViewController.m */; };
+		E6FD95D31FB01A2700D63B24 /* ADHomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD95D01FB01A2700D63B24 /* ADHomeViewCell.m */; };
+		E6FD95D41FB01A2700D63B24 /* ADHomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6FD95D11FB01A2700D63B24 /* ADHomeViewCell.xib */; };
+		E6FD95E81FB031B300D63B24 /* ADTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD95E51FB031B300D63B24 /* ADTabbar.m */; };
+		E6FD95E91FB031B300D63B24 /* ADTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FD95E71FB031B300D63B24 /* ADTabbarVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CB581FB10DCFDE18F40C8D7 /* libPods-ADPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31AF55B7F3E5151852988038 /* Pods-ADPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADPlayer/Pods-ADPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		E60D460D1FAF1C2C00AD24D9 /* ADPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60D46111FAF1C2C00AD24D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E60D46131FAF1C2C00AD24D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E60D46141FAF1C2C00AD24D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E60D461A1FAF1C2C00AD24D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E60D461C1FAF1C2C00AD24D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E60D461F1FAF1C2C00AD24D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E60D46211FAF1C2C00AD24D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60D462B1FAF1CB900AD24D9 /* ADPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADPlayer.h; sourceTree = "<group>"; };
+		E60D462C1FAF1CB900AD24D9 /* ADPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADPlayer.m; sourceTree = "<group>"; };
+		E60D46321FAF1EAD00AD24D9 /* ADConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADConst.h; sourceTree = "<group>"; };
+		E60D46331FAF1EAD00AD24D9 /* ADConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADConst.m; sourceTree = "<group>"; };
+		E60D46351FAF225A00AD24D9 /* ADTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTopicCell.h; sourceTree = "<group>"; };
+		E60D46361FAF225A00AD24D9 /* ADTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTopicCell.m; sourceTree = "<group>"; };
+		E60D463F1FAF22F700AD24D9 /* ADTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADTopicCell.xib; sourceTree = "<group>"; };
+		E60D46411FAF252C00AD24D9 /* ADTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTableViewVC.h; sourceTree = "<group>"; };
+		E60D46421FAF252C00AD24D9 /* ADTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTableViewVC.m; sourceTree = "<group>"; };
+		E60D46A91FAF30EA00AD24D9 /* UIImage+ADImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ADImage.h"; sourceTree = "<group>"; };
+		E60D46AA1FAF30EA00AD24D9 /* UIImage+ADImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADImage.m"; sourceTree = "<group>"; };
+		E6FD95C41FB018EF00D63B24 /* videoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = videoData.json; sourceTree = "<group>"; };
+		E6FD95C91FB0195300D63B24 /* ADVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVideoModel.h; sourceTree = "<group>"; };
+		E6FD95CA1FB0195300D63B24 /* ADVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADVideoModel.m; sourceTree = "<group>"; };
+		E6FD95CD1FB01A2700D63B24 /* ADCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCollectionViewController.h; sourceTree = "<group>"; };
+		E6FD95CE1FB01A2700D63B24 /* ADCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCollectionViewController.m; sourceTree = "<group>"; };
+		E6FD95CF1FB01A2700D63B24 /* ADHomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHomeViewCell.h; sourceTree = "<group>"; };
+		E6FD95D01FB01A2700D63B24 /* ADHomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHomeViewCell.m; sourceTree = "<group>"; };
+		E6FD95D11FB01A2700D63B24 /* ADHomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADHomeViewCell.xib; sourceTree = "<group>"; };
+		E6FD95E41FB031B300D63B24 /* ADTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabbar.h; sourceTree = "<group>"; };
+		E6FD95E51FB031B300D63B24 /* ADTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabbar.m; sourceTree = "<group>"; };
+		E6FD95E61FB031B300D63B24 /* ADTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTabbarVC.h; sourceTree = "<group>"; };
+		E6FD95E71FB031B300D63B24 /* ADTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTabbarVC.m; sourceTree = "<group>"; };
+		F2457430AC506E0F7965E3CB /* Pods-ADPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADPlayer/Pods-ADPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E60D460A1FAF1C2C00AD24D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5C4EC147056870E90D1085 /* libPods-ADPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95F833885691EA467A18A1F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB581FB10DCFDE18F40C8D7 /* libPods-ADPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0FB4A211028A261B832FE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31AF55B7F3E5151852988038 /* Pods-ADPlayer.debug.xcconfig */,
+				F2457430AC506E0F7965E3CB /* Pods-ADPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E60D46041FAF1C2C00AD24D9 = {
+			isa = PBXGroup;
+			children = (
+				E60D460F1FAF1C2C00AD24D9 /* ADPlayer */,
+				E60D460E1FAF1C2C00AD24D9 /* Products */,
+				AD0FB4A211028A261B832FE2 /* Pods */,
+				95F833885691EA467A18A1F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E60D460E1FAF1C2C00AD24D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60D460D1FAF1C2C00AD24D9 /* ADPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E60D460F1FAF1C2C00AD24D9 /* ADPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E6FD95E31FB031B300D63B24 /* ADTabbarVC */,
+				E60D462A1FAF1C9800AD24D9 /* PlayerView */,
+				E6FD95C31FB018EF00D63B24 /* Model */,
+				E60D46281FAF1C9800AD24D9 /* ADTableView */,
+				E6FD95CC1FB01A2700D63B24 /* ADCollectionView */,
+				E60D462E1FAF1E7800AD24D9 /* Tools */,
+				E60D46131FAF1C2C00AD24D9 /* AppDelegate.h */,
+				E60D46141FAF1C2C00AD24D9 /* AppDelegate.m */,
+				E60D46191FAF1C2C00AD24D9 /* Main.storyboard */,
+				E60D461C1FAF1C2C00AD24D9 /* Assets.xcassets */,
+				E60D461E1FAF1C2C00AD24D9 /* LaunchScreen.storyboard */,
+				E60D46211FAF1C2C00AD24D9 /* Info.plist */,
+				E60D46101FAF1C2C00AD24D9 /* Supporting Files */,
+			);
+			path = ADPlayer;
+			sourceTree = "<group>";
+		};
+		E60D46101FAF1C2C00AD24D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E60D46111FAF1C2C00AD24D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E60D46281FAF1C9800AD24D9 /* ADTableView */ = {
+			isa = PBXGroup;
+			children = (
+				E60D46351FAF225A00AD24D9 /* ADTopicCell.h */,
+				E60D46361FAF225A00AD24D9 /* ADTopicCell.m */,
+				E60D463F1FAF22F700AD24D9 /* ADTopicCell.xib */,
+				E60D46411FAF252C00AD24D9 /* ADTableViewVC.h */,
+				E60D46421FAF252C00AD24D9 /* ADTableViewVC.m */,
+			);
+			path = ADTableView;
+			sourceTree = "<group>";
+		};
+		E60D462A1FAF1C9800AD24D9 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				E60D462B1FAF1CB900AD24D9 /* ADPlayer.h */,
+				E60D462C1FAF1CB900AD24D9 /* ADPlayer.m */,
+			);
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		E60D462E1FAF1E7800AD24D9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E60D46A91FAF30EA00AD24D9 /* UIImage+ADImage.h */,
+				E60D46AA1FAF30EA00AD24D9 /* UIImage+ADImage.m */,
+				E60D46321FAF1EAD00AD24D9 /* ADConst.h */,
+				E60D46331FAF1EAD00AD24D9 /* ADConst.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E6FD95C31FB018EF00D63B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6FD95C41FB018EF00D63B24 /* videoData.json */,
+				E6FD95C91FB0195300D63B24 /* ADVideoModel.h */,
+				E6FD95CA1FB0195300D63B24 /* ADVideoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E6FD95CC1FB01A2700D63B24 /* ADCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				E6FD95CD1FB01A2700D63B24 /* ADCollectionViewController.h */,
+				E6FD95CE1FB01A2700D63B24 /* ADCollectionViewController.m */,
+				E6FD95CF1FB01A2700D63B24 /* ADHomeViewCell.h */,
+				E6FD95D01FB01A2700D63B24 /* ADHomeViewCell.m */,
+				E6FD95D11FB01A2700D63B24 /* ADHomeViewCell.xib */,
+			);
+			path = ADCollectionView;
+			sourceTree = "<group>";
+		};
+		E6FD95E31FB031B300D63B24 /* ADTabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				E6FD95E41FB031B300D63B24 /* ADTabbar.h */,
+				E6FD95E51FB031B300D63B24 /* ADTabbar.m */,
+				E6FD95E61FB031B300D63B24 /* ADTabbarVC.h */,
+				E6FD95E71FB031B300D63B24 /* ADTabbarVC.m */,
+			);
+			path = ADTabbarVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E60D460C1FAF1C2C00AD24D9 /* ADPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E60D46241FAF1C2C00AD24D9 /* Build configuration list for PBXNativeTarget "ADPlayer" */;
+			buildPhases = (
+				4FBAED10A038DA5E7BA9ED0A /* [CP] Check Pods Manifest.lock */,
+				E60D46091FAF1C2C00AD24D9 /* Sources */,
+				E60D460A1FAF1C2C00AD24D9 /* Frameworks */,
+				E60D460B1FAF1C2C00AD24D9 /* Resources */,
+				AF1226DA054EA186A17ECFB5 /* [CP] Embed Pods Frameworks */,
+				9EE91953040DBBD3E90B2220 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADPlayer;
+			productName = ADPlayer;
+			productReference = E60D460D1FAF1C2C00AD24D9 /* ADPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E60D46051FAF1C2C00AD24D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = adan;
+				TargetAttributes = {
+					E60D460C1FAF1C2C00AD24D9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E60D46081FAF1C2C00AD24D9 /* Build configuration list for PBXProject "ADPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E60D46041FAF1C2C00AD24D9;
+			productRefGroup = E60D460E1FAF1C2C00AD24D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E60D460C1FAF1C2C00AD24D9 /* ADPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E60D460B1FAF1C2C00AD24D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D46201FAF1C2C00AD24D9 /* LaunchScreen.storyboard in Resources */,
+				E60D461D1FAF1C2C00AD24D9 /* Assets.xcassets in Resources */,
+				E60D461B1FAF1C2C00AD24D9 /* Main.storyboard in Resources */,
+				E6FD95C71FB018EF00D63B24 /* videoData.json in Resources */,
+				E6FD95D41FB01A2700D63B24 /* ADHomeViewCell.xib in Resources */,
+				E60D46401FAF22F700AD24D9 /* ADTopicCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FBAED10A038DA5E7BA9ED0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EE91953040DBBD3E90B2220 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADPlayer/Pods-ADPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF1226DA054EA186A17ECFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADPlayer/Pods-ADPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E60D46091FAF1C2C00AD24D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60D463B1FAF225A00AD24D9 /* ADTopicCell.m in Sources */,
+				E6FD95E91FB031B300D63B24 /* ADTabbarVC.m in Sources */,
+				E6FD95D21FB01A2700D63B24 /* ADCollectionViewController.m in Sources */,
+				E60D46AB1FAF30EA00AD24D9 /* UIImage+ADImage.m in Sources */,
+				E60D46431FAF252C00AD24D9 /* ADTableViewVC.m in Sources */,
+				E60D46151FAF1C2C00AD24D9 /* AppDelegate.m in Sources */,
+				E60D46121FAF1C2C00AD24D9 /* main.m in Sources */,
+				E6FD95D31FB01A2700D63B24 /* ADHomeViewCell.m in Sources */,
+				E60D462D1FAF1CB900AD24D9 /* ADPlayer.m in Sources */,
+				E6FD95CB1FB0195300D63B24 /* ADVideoModel.m in Sources */,
+				E6FD95E81FB031B300D63B24 /* ADTabbar.m in Sources */,
+				E60D46341FAF1EAD00AD24D9 /* ADConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E60D46191FAF1C2C00AD24D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60D461A1FAF1C2C00AD24D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E60D461E1FAF1C2C00AD24D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E60D461F1FAF1C2C00AD24D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E60D46221FAF1C2C00AD24D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E60D46231FAF1C2C00AD24D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E60D46251FAF1C2C00AD24D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AF55B7F3E5151852988038 /* Pods-ADPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adan.ADPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E60D46261FAF1C2C00AD24D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2457430AC506E0F7965E3CB /* Pods-ADPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adan.ADPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E60D46081FAF1C2C00AD24D9 /* Build configuration list for PBXProject "ADPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D46221FAF1C2C00AD24D9 /* Debug */,
+				E60D46231FAF1C2C00AD24D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E60D46241FAF1C2C00AD24D9 /* Build configuration list for PBXNativeTarget "ADPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E60D46251FAF1C2C00AD24D9 /* Debug */,
+				E60D46261FAF1C2C00AD24D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E60D46051FAF1C2C00AD24D9 /* Project object */;
+}
